@@ -1,0 +1,12 @@
+# build output
+/target
+/build
+
+# editor
+/.vscode/*
+!/.vscode/settings.json
+
+# stray disk images and firmware copies
+*.iso
+*.img
+*.fd

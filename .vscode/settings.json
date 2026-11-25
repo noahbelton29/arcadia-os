@@ -1,0 +1,4 @@
+{
+  "rust-analyzer.linkedProjects": ["boot/Cargo.toml"],
+  "rust-analyzer.cargo.target": "x86_64-unknown-uefi"
+}

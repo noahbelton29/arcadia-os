@@ -1,0 +1,16 @@
+[package]
+name = "arcadia-boot"
+version = "0.1.0"
+edition = "2024"
+description = "ArcadiaOS boot manager"
+license = "GPL-3.0"
+
+[dependencies]
+uefi = { version = "0.35", features = ["panic_handler", "logger"] }
+
+[profile.release]
+opt-level = "s"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
